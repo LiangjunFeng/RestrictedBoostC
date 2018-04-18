@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "RestrictedBoostC",
-    version = "3.2.3",
+    version = "4.2.3",
     keywords = ("pip", "Classifier","EnsembleLearning", "RestrctedBoosting", "Tree"),
     description = "A Boosting Frame for Classifier",
     long_description = "A Boosting Frame for Classifier，Currently only CART tree and SVC are provided as base classifiers",
@@ -25,5 +25,5 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = []
+    install_requires = ["pandas","numpy","sklearn"]
 )
