@@ -1,4 +1,3 @@
-from DataSelection_Resistance import SelectData
 import numpy as np
 from numpy import random
 from sklearn.tree import DecisionTreeClassifier
