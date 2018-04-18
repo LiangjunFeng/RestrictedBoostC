@@ -18,7 +18,7 @@ setup(
     long_description = "A Boosting Frame for Classifier，Currently only CART tree and SVC are provided as base classifiers",
     license = "MIT Licence",
 
-    url = "https://github.com/LiangjunFeng/RestrictedBoostC",
+    url = "https://github.com/LiangjunFeng/RestrictedEmsemble",
     author = "LiangjunFeng",
     author_email = "zhumavip@163.com",
 
