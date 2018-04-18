@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "RestrictedBoostC",
-    version = "3.2.2",
+    version = "3.2.3",
     keywords = ("pip", "Classifier","EnsembleLearning", "RestrctedBoosting", "Tree"),
     description = "A Boosting Frame for Classifier",
     long_description = "A Boosting Frame for Classifier，Currently only CART tree and SVC are provided as base classifiers",
