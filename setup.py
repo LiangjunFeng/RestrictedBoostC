@@ -11,14 +11,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "RestrictedEmsemble",
-    version = "4.4.5",
+    name = "restrictedemsemble",
+    version = "4.5.5",
     keywords = ("pip", "Classifier","EnsembleLearning", "RestrctedBoosting", "Tree"),
     description = "A Boosting Frame for Classifier",
     long_description = "A Boosting Frame for Classifier，Currently only CART tree and SVC are provided as base classifiers",
     license = "MIT Licence",
 
-    url = "https://github.com/LiangjunFeng/RestrictedEmsemble",
+    url = "https://github.com/LiangjunFeng/restrictedemsemble",
     author = "LiangjunFeng",
     author_email = "zhumavip@163.com",
 
