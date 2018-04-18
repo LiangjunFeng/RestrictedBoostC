@@ -11,7 +11,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "RestrictedBoostC",
+    name = "RestrictedEmsemble",
     version = "4.3.5",
     keywords = ("pip", "Classifier","EnsembleLearning", "RestrctedBoosting", "Tree"),
     description = "A Boosting Frame for Classifier",
