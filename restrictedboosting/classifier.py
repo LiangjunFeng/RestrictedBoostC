@@ -1,3 +1,4 @@
+from DataSelection_Resistance import SelectData
 import numpy as np
 from numpy import random
 from sklearn.tree import DecisionTreeClassifier
@@ -6,6 +7,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 __author__ = 'LiangjunFeng'
+
 
 class SelectData():
     def __init__(self):
@@ -58,7 +60,8 @@ class SelectData():
         return self.bagging_train,np.ravel(self.bagging_label)
 
 
-class RBClassifier:
+
+class RestrictedEnsembleClassifier:
     def __init__(self,basetype = "Tree",
                  n_estimators = 100,
                  subsample = 0.8,
