@@ -60,7 +60,7 @@ class SelectData():
         return self.bagging_train,np.ravel(self.bagging_label)
 
 
-class RestrictedEnsembleClassifier:
+class RBClassifier:
     def __init__(self,basetype = "Tree",
                  n_estimators = 100,
                  subsample = 0.8,
