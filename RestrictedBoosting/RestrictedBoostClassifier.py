@@ -5,9 +5,7 @@ from sklearn.svm import SVC
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-
 __author__ = 'LiangjunFeng'
-
 
 class SelectData():
     def __init__(self):
